@@ -1,0 +1,1 @@
+OK: 106997 comprobaciones; 1024 grafos de 5 vertices revisados.

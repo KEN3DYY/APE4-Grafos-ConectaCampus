@@ -1,0 +1,29 @@
+
+=== CONECTA CAMPUS: INFORME DE LA RED ACTUAL ===
+1. V = [C1 Valeria, C2 Mateo, C3 Sofia, C4 Diego, C5 Elena, C6 Bruno]
+   E = [{C1, C5}, {C1, C4}, {C1, C2}, {C2, C3}, {C3, C4}]
+   Usuarios: 6 | Amistades: 5
+2. Grafo simple, no dirigido y no ponderado.
+      C1  C2  C3  C4  C5  C6
+  C1   0   1   0   1   1   0
+  C2   1   0   1   0   0   0
+  C3   0   1   0   1   0   0
+  C4   1   0   1   0   0   0
+  C5   1   0   0   0   0   0
+  C6   0   0   0   0   0   0
+   Densidad: 33.33 %
+3. Grados y listas de adyacencia:
+   C1 Valeria | grado 3 | [C5 Elena, C4 Diego, C2 Mateo]
+   C2 Mateo | grado 2 | [C3 Sofia, C1 Valeria]
+   C3 Sofia | grado 2 | [C4 Diego, C2 Mateo]
+   C4 Diego | grado 2 | [C1 Valeria, C3 Sofia]
+   C5 Elena | grado 1 | [C1 Valeria]
+   C6 Bruno | grado 0 | []
+   Aislados: [C6 Bruno]
+   Mayor grado: 3 | Usuarios: [C1 Valeria]
+   Suma de grados: 10 = 2 x 5
+4. Ciclo: C1 Valeria -> C4 Diego -> C3 Sofia -> C2 Mateo -> C1 Valeria
+   Componentes (2): [[C1 Valeria, C5 Elena, C4 Diego, C2 Mateo, C3 Sofia], [C6 Bruno]]
+   Red desconectada.
+5. Consulte amistad, vecinos y caminos en las opciones 3, 4 y 6.
+6. Validaciones: extremos existentes, sin lazos, sin duplicados, ID unico y nombre valido.

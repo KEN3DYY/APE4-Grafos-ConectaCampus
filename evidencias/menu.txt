@@ -1,0 +1,57 @@
+CONECTA CAMPUS | Laboratorio de redes de amistad
+
+1 Registrar usuario  | 2 Crear amistad | 3 Consultar amistad
+4 Vecinos y grado   | 5 Informe       | 6 Camino minimo
+7 Restablecer demo  | 8 Red vacia     | 0 Salir
+Opcion: Opcion no valida. Use un numero de 0 a 8.
+
+1 Registrar usuario  | 2 Crear amistad | 3 Consultar amistad
+4 Vecinos y grado   | 5 Informe       | 6 Camino minimo
+7 Restablecer demo  | 8 Red vacia     | 0 Salir
+Opcion: Opcion no valida. Use un numero de 0 a 8.
+
+1 Registrar usuario  | 2 Crear amistad | 3 Consultar amistad
+4 Vecinos y grado   | 5 Informe       | 6 Camino minimo
+7 Restablecer demo  | 8 Red vacia     | 0 Salir
+Opcion: Origen: Destino: C5 Elena -> C1 Valeria -> C4 Diego -> C3 Sofia | Saltos: 3
+
+1 Registrar usuario  | 2 Crear amistad | 3 Consultar amistad
+4 Vecinos y grado   | 5 Informe       | 6 Camino minimo
+7 Restablecer demo  | 8 Red vacia     | 0 Salir
+Opcion: Red vacia iniciada.
+
+1 Registrar usuario  | 2 Crear amistad | 3 Consultar amistad
+4 Vecinos y grado   | 5 Informe       | 6 Camino minimo
+7 Restablecer demo  | 8 Red vacia     | 0 Salir
+Opcion: 
+=== CONECTA CAMPUS: INFORME DE LA RED ACTUAL ===
+1. V = []
+   E = []
+   Usuarios: 0 | Amistades: 0
+2. Grafo simple, no dirigido y no ponderado.
+    
+   Densidad: 0.00 %
+3. Grados y listas de adyacencia:
+   Aislados: []
+   Mayor grado: 0 | Usuarios: []
+   Suma de grados: 0 = 2 x 0
+4. Ciclo: ninguno
+   Componentes (0): []
+   Red vacia: no hay usuarios que conectar.
+5. Consulte amistad, vecinos y caminos en las opciones 3, 4 y 6.
+6. Validaciones: extremos existentes, sin lazos, sin duplicados, ID unico y nombre valido.
+
+1 Registrar usuario  | 2 Crear amistad | 3 Consultar amistad
+4 Vecinos y grado   | 5 Informe       | 6 Camino minimo
+7 Restablecer demo  | 8 Red vacia     | 0 Salir
+Opcion: ID: Nombre: Usuario registrado.
+
+1 Registrar usuario  | 2 Crear amistad | 3 Consultar amistad
+4 Vecinos y grado   | 5 Informe       | 6 Camino minimo
+7 Restablecer demo  | 8 Red vacia     | 0 Salir
+Opcion: ID: Vecinos: [] | Grado: 0
+
+1 Registrar usuario  | 2 Crear amistad | 3 Consultar amistad
+4 Vecinos y grado   | 5 Informe       | 6 Camino minimo
+7 Restablecer demo  | 8 Red vacia     | 0 Salir
+Opcion: Sesion finalizada. Los datos solo se conservan durante la ejecucion.
