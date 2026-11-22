@@ -1,0 +1,3 @@
+OK | Escenario de los ocho pasos de Conexión Ambato
+OK | Validaciones, direccionalidad y limpieza de referencias
+Comprobaciones aprobadas: 66

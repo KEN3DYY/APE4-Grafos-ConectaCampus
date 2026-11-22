@@ -1,0 +1,35 @@
+CONEXIÓN AMBATO | APE 4 FASE 2
+1. registrarPersona A01–A06 y mostrarRed
+a06 Diego | amigos: [] | sigue a: []
+a05 Camila | amigos: [Andrés] | sigue a: []
+a04 Andrés | amigos: [Camila, Sofía, Valeria] | sigue a: []
+a03 Valeria | amigos: [Andrés, Mateo] | sigue a: []
+a02 Mateo | amigos: [Valeria, Sofía] | sigue a: []
+a01 Sofía | amigos: [Andrés, Mateo] | sigue a: []
+Grados A01–A06: 2 2 2 3 1 0
+6 usuarios | 5 amistades | 0 seguimientos | 10 aristas
+2. seguir(A02,A01) -> true
+Seguidores de Sofía: Mateo
+6 usuarios | 5 amistades | 1 seguimientos | 11 aristas
+3. seguir(A06,A01) -> true
+Seguidos de Diego: Sofía
+Seguidores de Sofía: Diego, Mateo
+Amigos de Diego: 0
+6 usuarios | 5 amistades | 2 seguimientos | 12 aristas
+4. listarAmigos(A04) -> Camila, Sofía, Valeria
+6 usuarios | 5 amistades | 2 seguimientos | 12 aristas
+5. eliminarAmistad(A04,A05) -> true
+Amigos de Andrés: Sofía, Valeria
+Amigos de Camila: 0
+6 usuarios | 4 amistades | 2 seguimientos | 10 aristas
+6. eliminarPersona(A01) -> true
+a06 Diego | amigos: [] | sigue a: []
+a05 Camila | amigos: [] | sigue a: []
+a04 Andrés | amigos: [Valeria] | sigue a: []
+a03 Valeria | amigos: [Andrés, Mateo] | sigue a: []
+a02 Mateo | amigos: [Valeria] | sigue a: []
+5 usuarios | 2 amistades | 0 seguimientos | 4 aristas
+7. registrarPersona(A02, Otro nombre) -> false
+5 usuarios | 2 amistades | 0 seguimientos | 4 aristas
+8. agregarAmistad(A03,A03) -> false
+5 usuarios | 2 amistades | 0 seguimientos | 4 aristas
