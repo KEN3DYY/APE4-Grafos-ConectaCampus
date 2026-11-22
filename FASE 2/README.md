@@ -2,7 +2,7 @@
 
 Entrega individual de Mateo Chalco para APE 4 Fase 2 de Estructura de Datos. El proyecto representa una red social dinámica con una lista enlazada de vértices y una lista de adyacencia propia por persona.
 
-[Ver informe en PDF](docs/Informe_APE4_Fase2_Mateo_Chalco.pdf) · [Descargar Word editable](docs/Informe_APE4_Fase2_Mateo_Chalco.docx)
+[Leer el informe en GitHub](docs/Vista_previa_informe.md) · [Descargar PDF](docs/Informe_APE4_Fase2_Mateo_Chalco.pdf) · [Descargar Word editable](docs/Informe_APE4_Fase2_Mateo_Chalco.docx)
 
 ## Ejecución
 
